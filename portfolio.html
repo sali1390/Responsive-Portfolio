@@ -3,6 +3,8 @@
 	<head>
 		<title>Saleema's Responsive Portfolio</title>
 
+		<meta name="viewport" content="width=device-width" />
+
 		<style type="text/css">
 			@media screen and (max-width: 980px) {
 				.body-content {
@@ -10,11 +12,6 @@
 				}
 				.main-content {
 					width: 400px!important;
-				}
-				#about-content img{
-					width:100%;
-					float: none!important;
-					display: block!important;
 				}
 				.sidebar {
 					width: 200px!important;
@@ -25,11 +22,22 @@
 			}
 
 			@media screen and (max-width: 768px) {
-					
-			}
+				.body-content {
+					width: 650px!important;
 
-			@media screen and (max-width: 640px) {
-				
+				}
+				.main-content {
+					width: 600px!important;
+					float: left!important;
+				}
+				.sidebar {
+					margin-top: 40px;
+					width: 610px!important;
+					float: left!important;
+				}
+				.social {
+					width: 60px;
+				}
 			}
 		</style>
 
